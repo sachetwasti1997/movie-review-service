@@ -1,0 +1,14 @@
+server:
+  port: 8081
+---
+spring:
+  config:
+    activate:
+      on-profile:
+        - local
+
+  data:
+    mongodb:
+      database: movie_reviews
+      host: localhost
+      port: 27017
